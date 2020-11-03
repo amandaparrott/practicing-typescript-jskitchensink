@@ -30,14 +30,21 @@ for (let i = 0; i < favVeggies.length; ++i) {
     console.log(favVeggies[i]);
 };
 
+interface pet {
+    name: string,
+    breed: string
+}
+
 //object for pet
-let pet = {
+let myPet: pet = {
     name: 'Molly',
     breed: 'Calico'
 };
 
 // console log for pet
-console.log(pet.name, pet.breed);
+console.log(myPet.name, myPet.breed);
+
+
 
 // 5 objects with name and age
 let people = [

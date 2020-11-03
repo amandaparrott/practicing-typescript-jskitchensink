@@ -27,12 +27,12 @@ for (var i = 0; i < favVeggies.length; ++i) {
 }
 ;
 //object for pet
-var pet = {
+var myPet = {
     name: 'Molly',
     breed: 'Calico'
 };
 // console log for pet
-console.log(pet.name, pet.breed);
+console.log(myPet.name, myPet.breed);
 // 5 objects with name and age
 var people = [
     {
